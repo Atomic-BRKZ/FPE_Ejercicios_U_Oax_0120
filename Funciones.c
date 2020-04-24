@@ -16,3 +16,15 @@ float volumen_prisma(float area_base_prisma, float altura_prisma){
 float volumenDeEsfera(float radio) {
   return (4 * (PI * radio*radio*radio)) / 3;
 }
+
+float VParale(float x,float y,float t)
+    {
+    	float volp=x*y*t;
+    	return volp;
+	}
+
+float Vcili(float t,float v)
+    {
+    	float volc=t*v*M_PI;
+    	return volc;
+	}
